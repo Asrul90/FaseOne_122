@@ -32,7 +32,7 @@ class _FormWidgetState extends State<FormMakanan> {
             autovalidateMode: AutovalidateMode.onUserInteraction,
             decoration: InputDecoration(
               labelText: "Makanan",
-              hintText: "Masukkan Makanan",
+              hintText: "MasukkanMakanan",
             ),
           ),
           SizedBox(height: 25),
