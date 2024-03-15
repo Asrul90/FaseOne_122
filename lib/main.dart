@@ -1,4 +1,5 @@
-import 'package:cmasben/forom1/form_screen.dart';
+import 'package:cmasben/Form/form_screen.dart';
+import 'package:cmasben/Form/foter_widget.dart';
 import 'package:flutter/material.dart';
 
 void main() {
@@ -32,7 +33,7 @@ class MyApp extends StatelessWidget {
           colorScheme: ColorScheme.fromSeed(seedColor: Colors.deepPurple),
           useMaterial3: true,
         ),
-        home: const LoginScreen());
+        home: const DataForm());
   }
 }
 
