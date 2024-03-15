@@ -17,7 +17,7 @@ class FooterMakanan extends StatelessWidget {
           child: Center(
             child: ElevatedButton(
               onPressed: onPressedSubmit,
-              child: Text("Submit"),
+              child: Text("SUBMIT"),
             ),
           ),
         ),
